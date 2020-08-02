@@ -1,0 +1,17 @@
+{
+  "name": "text-sentiment",
+  "version": "1.0.0",
+  "description": "text-analysis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "author": "Rohit Singh",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/ai-text-analytics": "^1.0.0-preview.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
